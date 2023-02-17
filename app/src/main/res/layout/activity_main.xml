@@ -25,6 +25,8 @@
             android:layout_height="wrap_content"
             android:text="@string/saldo"
             android:textSize="23sp"
+            android:paddingStart="22dp"
+            android:paddingEnd="0dp"
             app:layout_constraintBottom_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/dinero"
@@ -42,22 +44,46 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/euro"
-            android:textSize="20sp"/>
+            android:textSize="17sp"/>
     </LinearLayout>
 
-    <LinearLayout
+
+    <TextView
+        android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/cabecera">
+        android:text="@string/juegos"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:padding="20dp"
+        android:background="@color/nearblack"
+        app:layout_constraintTop_toBottomOf="@id/cabecera"
+        app:layout_constraintStart_toStartOf="parent"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/juegos"
-            android:textSize="30sp"
-            android:textAlignment="center"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:layout_constraintTop_toBottomOf="@id/titulo"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/juego1"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/juego2"
+            android:textSize="20sp"/>
+
+    </RadioGroup>
 
 
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
