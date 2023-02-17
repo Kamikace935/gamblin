@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">gamblin</string>
+    <string name="saldo">Saldo: </string>
+    <string name="euro">€</string>
+    <string name="juegos">JUEGOS</string>
 </resources>
