@@ -5,4 +5,14 @@
     <string name="juegos">JUEGOS</string>
     <string name="juego1">PAR/IMPAR</string>
     <string name="juego2">Mayor7Menor</string>
+
+
+    <string-array name="pares">
+        <item>Par</item>
+        <item>Impar</item>
+    </string-array>
+    <string-array name="siete">
+        <item>Mayor</item>
+        <item>Menor</item>
+    </string-array>
 </resources>

@@ -61,8 +61,13 @@
         app:layout_constraintStart_toStartOf="parent"/>
 
     <RadioGroup
+        android:id="@+id/radioB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingEnd="0dp"
+        android:paddingStart="30dp"
+        android:background="@color/nearblack"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         app:layout_constraintTop_toBottomOf="@id/titulo"
@@ -72,18 +77,30 @@
             android:id="@+id/radio0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:paddingStart="0dp"
+            android:paddingEnd="50dp"
             android:text="@string/juego1"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
 
         <RadioButton
             android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:minHeight="48dp"
             android:text="@string/juego2"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
 
     </RadioGroup>
 
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@color/nearblack"
+        app:layout_constraintTop_toBottomOf="@id/radioB" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
