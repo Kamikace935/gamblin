@@ -7,7 +7,7 @@
     <string name="juego2">Mayor7Menor</string>
 
 
-    <string-array name="pares">
+    <string-array name="par">
         <item>Par</item>
         <item>Impar</item>
     </string-array>
