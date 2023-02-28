@@ -5,6 +5,8 @@
     <string name="juegos">JUEGOS</string>
     <string name="juego1">PAR/IMPAR</string>
     <string name="juego2">Mayor7Menor</string>
+    <string name="apuesta">Haga su apuesta</string>
+    <string name="jugar">Lanzar los dados</string>
 
 
     <string-array name="par">
@@ -13,6 +15,7 @@
     </string-array>
     <string-array name="siete">
         <item>Mayor</item>
+        <item>Igual</item>
         <item>Menor</item>
     </string-array>
 </resources>
